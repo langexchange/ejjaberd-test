@@ -1,0 +1,1 @@
+# ejjaberd-template
