@@ -82,7 +82,7 @@ listen:
       /bosh: mod_bosh
       /captcha: ejabberd_captcha
       /upload: mod_http_upload
-      /ws: ejabberd_http_ws
+      /xmpp: ejabberd_http_ws
       /: ejabberd_xmlrpc
   -
     port: 5280
@@ -92,6 +92,7 @@ listen:
       /admin: ejabberd_web_admin
       /api: mod_http_api
       /.well-known/acme-challenge: ejabberd_acme
+      /xmpp-websocket: ejabberd_http_ws
   -
     port: 3478
     ip: "::"
